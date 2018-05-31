@@ -1,0 +1,10 @@
+{
+  "name": "peril",
+  "version": "1.0.0",
+  "repository": "git@github.com:palleas/peril.git",
+  "author": "Romain Pouclet <romain.pouclet@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "danger": "^3.7.14"
+  }
+}
