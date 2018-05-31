@@ -1,8 +1,6 @@
 {
     "settings": {},
-    "repos": {
-        "Palleas/caretaker-server": {
-            "issues.opened": "palleas/peril@say-hi.js"
-        }
+    "rules": {
+        "issues.opened": "palleas/peril@say-hi.js"
     }
 }
