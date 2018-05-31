@@ -2,7 +2,7 @@
     "settings": {},
     "repos": {
         "palleas/caretaker-importer": {
-            "issue.opened": "palleas/peril@say-hi.js"
+            "issues.opened": "palleas/peril@say-hi.js"
         }
     }
 }
