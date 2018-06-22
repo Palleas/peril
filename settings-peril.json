@@ -1,11 +1,16 @@
 {
     "settings": {},
     "rules": {
-        "issues.opened": [
-            "palleas/peril@say-hi.ts"
-        ],
         "pull_request.opened": [
-            "palleas/peril@say-hi.ts"
+            "palleas/peril@orgs/checkDescriptionLength.ts",
+            "palleas/peril@orgs/checkIssueURL.ts"
         ]
+    },
+    "repos": {
+        "buddybuild/BB": {
+            "pull_request.opened": [
+                "palleas/peril@orgs/checkPackageChanges.ts"
+            ]
+        }
     }
 }

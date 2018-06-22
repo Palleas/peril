@@ -6,5 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "danger": "^3.7.14"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
   }
 }
