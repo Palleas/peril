@@ -4,7 +4,7 @@
         "issues.opened": [
             "palleas/peril@say-hi.ts"
         ],
-        "pr.opened": [
+        "pull_request.opened": [
             "palleas/peril@say-hi.ts"
         ]
     }
