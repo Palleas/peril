@@ -1,6 +1,6 @@
 import { message, warn, danger, markdown } from "danger"
 
-export default async () => {
+export const doSomething = async () => {
     const gh = danger.github as any;
     const repo = gh.repository;
     const issue = gh.issue;
