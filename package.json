@@ -5,9 +5,29 @@
   "author": "Romain Pouclet <romain.pouclet@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "danger": "^3.7.14"
+    "danger": "^3.7.14",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "test": "jest"
   },
   "devDependencies": {
-    "jest": "^23.1.0"
+    "@types/jest": "^23.1.1",
+    "jest": "^23.1.0",
+    "ts-jest": "^22.4.6"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }
