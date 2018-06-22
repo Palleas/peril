@@ -2,8 +2,7 @@
     "settings": {},
     "rules": {
         "issues.opened": [
-            "palleas/peril@say-hi.ts",
-            "Moya/moya-peril@org/labeler.ts"
+            "palleas/peril@say-hi.ts"
         ]
     }
 }
