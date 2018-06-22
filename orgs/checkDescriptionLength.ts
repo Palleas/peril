@@ -1,7 +1,7 @@
-import { warn, schedule, danger } from 'danger';
+import { warn, danger } from "danger";
 
 export const checkDescriptionLength = async () => {
-    if (danger.github.pr.body.length < 10) {
-        warn('The description is very short.');
-    }
-}
+  if (danger.github.pr.body.length < 10) {
+    warn("The description is very short.");
+  }
+};
