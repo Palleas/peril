@@ -3,6 +3,9 @@
     "rules": {
         "issues.opened": [
             "palleas/peril@say-hi.ts"
+        ],
+        "pr.opened": [
+            "palleas/peril@say-hi.ts"
         ]
     }
 }
