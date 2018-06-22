@@ -10,10 +10,10 @@ export const doSomething = async () => {
     warn('Uh-oh, that is not good');
     markdown('# This does not work, does it?');
 
-    await danger.github.api.issues.addLabels({
-        owner: repo.owner.login,
-        repo: repo.name,
-        number: issue.number,
-        labels: ["good first issue"]
-    });
+    // await danger.github.api.issues.addLabels({
+    //     owner: repo.owner.login,
+    //     repo: repo.name,
+    //     number: issue.number,
+    //     labels: ["good first issue"]
+    // });
 }
